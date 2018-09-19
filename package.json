@@ -1,0 +1,19 @@
+{
+  "name": "koziar.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharkich/koziar.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharkich/koziar.io/issues"
+  },
+  "homepage": "https://github.com/sharkich/koziar.io#readme"
+}
