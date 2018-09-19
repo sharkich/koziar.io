@@ -50,15 +50,15 @@ h1 {
 }
 
 a {
-  color: #3ba0d4;
+  color: #111;
 }
 
 a:visited {
-  color: #7a2877;
+  color: #222;
 }
 
 a:hover {
-  color: #dd423e;
+  color: #eee;
 }
 
 .acenter {
@@ -83,7 +83,12 @@ a.grey:hover {
   filter: grayscale(100%);
 }
 
+.person {
+  opacity: 0.5;
+}
+
 .person:hover {
+  opacity: 1;
   color: #eee;
 }
 
@@ -111,6 +116,20 @@ dl dd {
 
 .text-center {
   text-align: center;
+}
+
+/*
+Animation
+ */
+
+@keyframes opacity {
+  from {opacity: 0.5;}
+  to {opacity: 1;}
+}
+
+@keyframes filter {
+  from {filter: grayscale(100%);}
+  to {filter: none;}
 }
 
 /**
@@ -147,6 +166,15 @@ App
 
 .person {
   text-align: center;
+}
+
+.additional {
+  display: none;
+  color: #111;
+}
+
+.person:hover .additional {
+  display: block;
 }
 
 /**
